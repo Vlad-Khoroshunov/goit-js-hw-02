@@ -9,8 +9,8 @@ function makeTransaction(quantity, pricePerDroid, customerCredits) {
   }
 }
 
-console.log(makeTransaction(4, 500, 10000));
-console.log(makeTransaction(1, 500, 1000));
+console.log(makeTransaction(4, 500, 100));
+console.log(makeTransaction(1, 1000, 1000));
 console.log(makeTransaction(10, 100, 10000));
 console.log(makeTransaction(2, 500, 5000));
 console.log(makeTransaction(45, 1000, 100000));
