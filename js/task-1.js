@@ -15,8 +15,8 @@ console.log(makeTransaction(10, 100, 10000));
 console.log(makeTransaction(2, 500, 5000));
 console.log(makeTransaction(45, 1000, 100000));
 
-console.log(makeTransaction());
-console.log(makeTransaction());
-console.log(makeTransaction());
-console.log(makeTransaction());
-console.log(makeTransaction());
+// console.log(makeTransaction());
+// console.log(makeTransaction());
+// console.log(makeTransaction());
+// console.log(makeTransaction());
+// console.log(makeTransaction());

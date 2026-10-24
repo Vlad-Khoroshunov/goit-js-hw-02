@@ -11,11 +11,11 @@ console.log(checkForSpam("Can You Feel My Heart"));
 console.log(checkForSpam("True Friends"));
 console.log(checkForSpam("Happy Song"));
 
-console.log(checkForSpam());
-console.log(checkForSpam());
-console.log(checkForSpam());
-console.log(checkForSpam());
-console.log(checkForSpam());
-console.log(checkForSpam());
-console.log(checkForSpam())
+// console.log(checkForSpam());
+// console.log(checkForSpam());
+// console.log(checkForSpam());
+// console.log(checkForSpam());
+// console.log(checkForSpam());
+// console.log(checkForSpam());
+// console.log(checkForSpam());
 
