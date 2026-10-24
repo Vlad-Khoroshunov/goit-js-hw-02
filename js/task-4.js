@@ -3,32 +3,34 @@
 function getShippingCost(country) {
   switch (country) {
     case "China":
-      return "10$";
+      return `Shipping to ${country} will cost 100 credits`;
 
     case "Chile":
-      return "300$";
+      return `Shipping to ${country} will cost 270 credits`;
 
     case "Australia":
-      return "1000$";
+      return `Shipping to ${country} will cost 170 credits`;
 
     case "Jamaica":
-      return "500$";
+      return `Shipping to ${country} will cost 120 credits`;
 
     default:
       return "Sorry, there is no delivery to your country";
   }
 }
 
-console.log(getShippingCost("China"));
-console.log(getShippingCost("Uganda"));
-console.log(getShippingCost("Chile"));
-console.log(getShippingCost("Australia"));
-console.log(getShippingCost("America"));
-console.log(getShippingCost("Jamaica"));
+console.log(getShippingCost("Australia")); // "Shipping to Australia will cost 170 credits"
+console.log(getShippingCost("Germany")); // "Sorry, there is no delivery to your country"
+console.log(getShippingCost("China")); // "Shipping to China will cost 100 credits"
+console.log(getShippingCost("Chile")); // "Shipping to Chile will cost 250 credits"
+console.log(getShippingCost("Jamaica")); // "Shipping to Jamaica will cost 120 credits"
+console.log(getShippingCost("Sweden")); // "Sorry, there is no delivery to your country"
 
-// console.log(getShippingCost());
-// console.log(getShippingCost());
-// console.log(getShippingCost());
-// console.log(getShippingCost());
-// console.log(getShippingCost());
-// console.log(getShippingCost());
+
+// console.log(getShippingCost("China"));
+// console.log(getShippingCost("Uganda"));
+// console.log(getShippingCost("Chile"));
+// console.log(getShippingCost("Australia"));
+// console.log(getShippingCost("America"));
+// console.log(getShippingCost("Jamaica"));
+
