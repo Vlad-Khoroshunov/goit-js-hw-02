@@ -1,22 +1,22 @@
-`use strict`
+`use strict`;
 
-function getShippingCost(country) { 
-    switch (country) { 
-        case "China":
-        return "10$";
+function getShippingCost(country) {
+  switch (country) {
+    case "China":
+      return "10$";
 
-        case "Chile":
-        return "300$";
-        
-        case "Australia":
-        return "1000$";
-        
-        case "Jamaica":
-        return "500$";
+    case "Chile":
+      return "300$";
+
+    case "Australia":
+      return "1000$";
+
+    case "Jamaica":
+      return "500$";
 
     default:
-        return "Sorry, there is no delivery to your country";
-    }
+      return "Sorry, there is no delivery to your country";
+  }
 }
 
 console.log(getShippingCost("China"));
